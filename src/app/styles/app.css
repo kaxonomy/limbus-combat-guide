@@ -1,0 +1,227 @@
+/* General Styles */
+body {
+  @apply font-sans bg-gray-900 text-gray-100;
+}
+
+.App {
+  @apply min-h-screen flex flex-col;
+}
+
+/* Header Styles */
+header h1 {
+  @apply font-bold tracking-tight text-white;
+}
+
+/* Navigation Styles */
+.nav-pills .nav-link {
+  @apply mb-2 rounded transition-all duration-200 ease-in-out text-gray-200;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+  @apply bg-blue-500/10 text-white;
+}
+
+/* Card Styles */
+.category-card {
+  @apply cursor-pointer transition-transform duration-200 ease-in-out border border-gray-700 bg-gray-800 text-white;
+}
+
+.category-card:hover {
+  @apply transform -translate-y-1 shadow-lg border-gray-600 bg-gray-700;
+}
+
+.card-title {
+  @apply text-gray-200 font-semibold;
+}
+
+.card-body {
+  @apply text-gray-300;
+}
+
+/* Remove rounding from card backgrounds and images */
+.card,
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  border-radius: 0 !important;
+  overflow: hidden;
+}
+
+.card-header,
+.card-footer {
+  border-radius: 0 !important;
+}
+
+/* Button Styles */
+button {
+  @apply text-gray-900 bg-blue-500 hover:bg-blue-400 text-white transition-all duration-200 ease-in-out;
+}
+
+button:focus {
+  @apply outline-none ring-2 ring-blue-300;
+}
+
+/* Modal Styles */
+.modal-header {
+  @apply bg-gray-800 text-white;
+}
+
+.modal-content {
+  @apply rounded-lg overflow-hidden bg-gray-800;
+}
+
+/* Combat Content Styles */
+.badge {
+  @apply text-sm py-1 px-2.5 text-gray-300;
+}
+
+table {
+  @apply w-full mb-4 text-gray-200;
+}
+
+table th,
+table td {
+  @apply py-3 px-4;
+}
+
+/* Combat info specific styling */
+.table-danger {
+  @apply bg-red-500/20;
+}
+
+.table-warning {
+  @apply bg-yellow-400/20;
+}
+
+.table-info {
+  @apply bg-blue-400/20;
+}
+
+.table-success {
+  @apply bg-green-600/20;
+}
+
+/* Sin Colors */
+.bg-purple {
+  @apply bg-purple-700;
+}
+
+/* Remove rounding from all Bootstrap components */
+.btn, 
+.card, 
+.modal-content, 
+.dropdown-menu, 
+.list-group-item, 
+.form-control, 
+.input-group-text, 
+.badge, 
+.alert, 
+.progress, 
+.tooltip, 
+.popover, 
+.carousel-control-prev, 
+.carousel-control-next {
+  border-radius: 0 !important;
+}
+
+/* Remove rounding on some Bootstrap classes */
+.rounded,
+.rounded-top,
+.rounded-bottom,
+.rounded-start,
+.rounded-end,
+.rounded-circle,
+.rounded-pill {
+  border-radius: 0 !important;
+}
+
+/* Accordion Fixes */
+.accordion-content-wrapper {
+  width: 100%;
+}
+
+/* Fix for accordion content visibility */
+.accordion-collapse.collapse.show {
+  visibility: visible !important;
+  height: auto !important;
+  opacity: 1 !important;
+}
+
+.accordion-collapse.collapse.show .accordion-body {
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* Fix for transition */
+.accordion-collapse {
+  transition: height 0.35s ease, opacity 0.2s ease;
+}
+
+.accordion-body {
+  transition: opacity 0.2s ease;
+}
+
+.accordion-button {
+  z-index: 3;
+  position: relative;
+}
+
+/* Remove rounding from accordion elements */
+.accordion-button,
+.accordion-button:not(.collapsed),
+.accordion-item,
+.accordion-header,
+.accordion-body {
+  border-radius: 0 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  border-radius: 0 !important;
+}
+
+/* Bullet Point Styles */
+ul {
+  list-style-type: disc;
+  padding-left: 1.3em;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer Styles */
+footer {
+  @apply mt-auto bg-gray-800 text-gray-400;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .category-card {
+    @apply mb-4;
+  }
+
+  .nav-pills {
+    @apply flex flex-wrap mb-4;
+  }
+
+  .nav-pills .nav-item {
+    @apply mr-2 mb-2;
+  }
+}
+
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded-full hover:bg-blue-600 transition-colors duration-300;
+}
