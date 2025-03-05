@@ -1,5 +1,3 @@
-// src/data.tsx
-
 interface CombatCategory {
   id: string;
   title: string;
