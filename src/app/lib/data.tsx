@@ -619,7 +619,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "Formerly the youngest chief researcher at N Corp., Yi Sang invented the Mirror and joined Limbus Company after defecting due to ethical concerns.",
     combatRole: "Ranged attacker, focusing on debuffs like Sinking, with skills that deal damage over time.",
-    sinAffinities: ["Gloom", "Sloth", "Envy"],
+    sinAffinities: ["Gloom", "Envy", "Sloth"],
     keyAbilities: [
       { name: "Deflect", type: "Slash", effect: "Inflicts 2 Sinking on hit." },
       { name: "End-stop Stab", type: "Pierce", effect: "Inflicts Sinking and Attack Power Down if at high speed." },
@@ -639,7 +639,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "Developed Mephistopheles, the bus for Limbus Company. She recruited other Sinners and focuses on retrieving Golden Boughs.",
     combatRole: "Melee attacker with Blunt and Pierce skills, applying debuffs like Paralyze and Offense Level Down.",
-    sinAffinities: ["Lust", "Pride", "Envy"],
+    sinAffinities: ["Pride", "Sloth", "Gluttony"],
     keyAbilities: [
       { name: "Downward Slash", type: "Blunt", effect: "Inflicts 1 Paralyze on hit." },
       { name: "Upward Slash", type: "Blunt", effect: "Inflicts 3 Offense Level Down next turn on hit." },
@@ -658,7 +658,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "Real name Sancho, a Bloodfiend with a knightly persona. His past involves serving as an enforcer and erasing memories in the River of Oblivion.",
     combatRole: "Melee attacker with Pierce skills, focusing on clash wins and Bleed effects, reflecting his knightly ideals.",
-    sinAffinities: ["Lust", "Pride", "Envy"],
+    sinAffinities: ["Lust", "Envy", "Gluttony"],
     keyAbilities: [
       { name: "Joust", type: "Pierce", effect: "Clash Win gives 2 Haste." },
       { name: "Galloping Tilt", type: "Pierce", effect: "Clash Win gives 2 Attack Power Up, Heads Hit inflicts 2 Bleed." },
@@ -677,7 +677,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "Mysterious, possibly linked to the Five Fingers of the Backstreets, with knowledge of Shi Association operations, adding intrigue.",
     combatRole: "Melee attacker with Slash skills, focusing on dealing and taking increased damage for aggressive play.",
-    sinAffinities: ["Lust", "Pride", "Envy"],
+    sinAffinities: ["Gluttony", "Lust", "Pride"],
     keyAbilities: [
       { name: "Paint", type: "Slash", effect: "Gains 2 Poise next turn on hit." },
       { name: "Splatter", type: "Slash", effect: "+30% damage if target took damage this turn." },
@@ -696,7 +696,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "Former N Corp. employee, contemplative, lacking strong opinions, with experiences dealing with Distortions and club visits.",
     combatRole: "Melee attacker with Blunt skills, focusing on Tremor and defense, suitable for tanking roles.",
-    sinAffinities: ["Sloth", "Envy", "Gluttony"],
+    sinAffinities: ["Sloth", "Pride", "Gloom"],
     keyAbilities: [
       { name: "Un, Deux", type: "Blunt", effect: "Inflicts 1 Tremor on hit." },
       { name: "Nailing Fist", type: "Blunt", effect: "Gains 3 Defense Power Up next turn, triggers Tremor Burst on hit." },
@@ -715,7 +715,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "From a wealthy family, based on 'Dream of the Red Chamber,' with family betrayal shaping endurance and emotional detachment.",
     combatRole: "Melee attacker with Blunt and Slash skills, focusing on Sinking and Ruptured debuffs, suited for damage-over-time strategies.",
-    sinAffinities: ["Sloth", "Envy", "Pride"],
+    sinAffinities: ["Pride", "Sloth", "Lust"],
     keyAbilities: [
       { name: "Downward Cleave", type: "Blunt", effect: "Inflicts 2 Sinking on hit." },
       { name: "Dual Strike", type: "Slash", effect: "If no damage taken last turn, Coin Power +1, inflicts 2 Sinking and 2 Rupture." },
@@ -734,7 +734,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "Former wrecker for people and property, part of the Dead Rabbits Syndicate, with a history of violence and lack of formal education.",
     combatRole: "Melee attacker with Blunt skills, focusing on Tremor and damage boosts, suited for aggressive play.",
-    sinAffinities: ["Envy", "Wrath", "Pride"],
+    sinAffinities: ["Envy", "Wrath", "Lust"],
     keyAbilities: [
       { name: "Bat Bash", type: "Blunt", effect: "Inflicts 3 Tremor on hit." },
       { name: "Smackdown", type: "Blunt", effect: "Gains 1 Attack Power Up and Damage Up next turn, inflicts 2 Tremor on hit." },
@@ -753,7 +753,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "Former accountant and sailor, survived a disastrous voyage hunting the Pallid Whale, adding resilience to her character.",
     combatRole: "Melee attacker with Blunt skills, focusing on Tremor and defense debuffs, suitable for tanking roles.",
-    sinAffinities: ["Wrath", "Gluttony", "Gloom"],
+    sinAffinities: ["Gluttony", "Gloom", "Pride"],
     keyAbilities: [
       { name: "Loggerhead", type: "Blunt", effect: "Inflicts +1 Tremor on hit." },
       { name: "Slide", type: "Blunt", effect: "Clash Win inflicts 3 Defense Power Down, inflicts 3 Tremor on hit." },
@@ -772,7 +772,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "Part of the League of Nine Littératures, a group of writers and researchers, with a past influencing her combat focus on Bleed effects.",
     combatRole: "Melee attacker with Slash skills, focusing on Bleed effects, suited for damage-over-time strategies.",
-    sinAffinities: ["Wrath", "Envy", "Pride"],
+    sinAffinities: ["Gluttony", "Pride", "Wrath"],
     keyAbilities: [
       { name: "Strike Down", type: "Slash", effect: "Inflicts 2 Bleed on hit." },
       { name: "Axe Combo", type: "Slash", effect: "Inflicts 2 Bleed and +1 Bleed Count on hit." },
@@ -791,7 +791,7 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "From Calw, a town known for prosthetics, sheltered and naive, with a focus on breaking out of his shell, adding to his character development.",
     combatRole: "Melee attacker with Slash skills, focusing on Ruptured and attack power boosts, suitable for offensive strategies.",
-    sinAffinities: ["Lust", "Pride", "Envy"],
+    sinAffinities: ["Pride", "Wrath", "Envy"],
     keyAbilities: [
       { name: "Downward Swing", type: "Slash", effect: "Inflicts 2 Rupture on hit." },
       { name: "Halberd Combo", type: "Slash", effect: "Clash Win +30% damage." },
@@ -810,18 +810,36 @@ export const sinners: Sinner[] = [
     image: "/api/placeholder/200/300",
     background: "Military veteran from the Smoke War, expert in tactics and workshop technologies, with a mysterious past.",
     combatRole: "Melee attacker with Pierce and Slash skills, focusing on Ruptured and conditional damage, suited for tactical play.",
-    sinAffinities: ["Sloth", "Envy", "Pride"],
+    sinAffinities: ["Sloth", "Pride", "Gloom"],
     keyAbilities: [
       { name: "Pulled Blade", type: "Pierce", effect: "Inflicts 2 Rupture on hit." },
-      { name: "Backslash", type: "Slash", effect: "+20% damage if user’s speed > target’s." },
-      { name: "Piercing Thrust", type: "Pierce", effect: "Inflicts +1 Rupture Count, +20% damage if target’s HP > 50%." },
+      { name: "Backslash", type: "Slash", effect: "+20% damage if user's speed > target's." },
+      { name: "Piercing Thrust", type: "Pierce", effect: "Inflicts +1 Rupture Count, +20% damage if target's HP > 50%." },
       { name: "Evade", type: "Evade", effect: "No additional effects." }
     ],
     passives: [
-      { name: "Executor", effect: "With Sloth Owned, if target’s SP is below 0, deal +10% damage." },
+      { name: "Executor", effect: "With Sloth Owned, if target's SP is below 0, deal +10% damage." },
       { name: "Military Mindset", effect: "With Sloth Owned, 1 ally with most HP deals +30% damage to enemies below 0 SP." }
     ],
     teamSynergy: "Pairs well with Sinners reducing enemy SP or having high HP, enhancing damage output in tactical setups."
+  },
+  {
+    id: "gregor",
+    name: "Gregor",
+    image: "/api/placeholder/200/300",
+    background: "Former Lieutenant of the Rhino Company, haunted by his past and the loss of his arm, now wields a prosthetic enhanced with technology.",
+    combatRole: "Hybrid attacker with Blunt and Pierce skills, specializing in Poison and debuffs, offering sustained damage and disruption.",
+    sinAffinities: ["Gluttony", "Pride", "Lust"],
+    keyAbilities: [
+      { name: "Stinger", type: "Pierce", effect: "Inflicts 2 Poison on hit." },
+      { name: "Crushing Blow", type: "Blunt", effect: "Deals +15% damage to targets with Poison." },
+      { name: "Venomous Lash", type: "Pierce", effect: "Inflicts 1 Paralysis potency on hit." },
+      { name: "Guard", type: "Defense", effect: "Gains +1 Defense level for 1 turn." }
+    ],
+    passives: [
+      { name: "Lingering Venom", effect: "With Lust Owned, enemies with Poison take 5% more damage from all sources." },
+      { name: "Bitter Resentment", effect: "With Lust Owned, at the start of the Scene, if any enemy has a negative status effect, gain +1 Offensive level for 1 turn." }
+    ],
+    teamSynergy: "Excels with Sinners who can apply negative status effects or benefit from enemies being Poisoned, creating opportunities for increased damage and control."
   }
-
 ];
