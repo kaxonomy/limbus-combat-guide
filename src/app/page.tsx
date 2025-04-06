@@ -202,7 +202,7 @@ export default function Page() {
                 </a>
               </div>
               <p className="mb-1">Built with React, Bootstrap, Next.js, & Tailwind</p>
-              <p className="mb-1">Hosted by Cloudflare workers</p>
+              <p className="mb-1">Hosted by Cloudflare Pages</p>
             </Col>
           </Row>
         </Container>
