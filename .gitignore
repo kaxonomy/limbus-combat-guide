@@ -25,6 +25,7 @@ wrangler.jsonc
 # misc
 .DS_Store
 *.pem
+.github
 
 # debug
 npm-debug.log*
